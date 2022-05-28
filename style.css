@@ -709,7 +709,9 @@ span{
 .Footer .col-md-4 span{
     font-size: 20px;
 }
-    
+.billboard-inner img {
+    height: auto;
+}  
 }
 /* // Small devices (landscape phones, 576px and up 767) */
 @media (min-width: 568px) and (max-width: 767px) {
@@ -749,7 +751,6 @@ span{
 
 
 }
-
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
 
