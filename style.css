@@ -678,6 +678,7 @@ p{
 
 .billboard-inner{
     margin-top: 20px;
+    flex-direction: column;
 }
 
 .testimonials {
@@ -710,8 +711,14 @@ span{
     font-size: 20px;
 }
 .billboard-inner img {
-    height: auto;
+    height: 300px;
+    margin: 15px 0;
+    width: 100%;
 }  
+
+.nav-order{
+    margin-top: 30px;
+}
 }
 /* // Small devices (landscape phones, 576px and up 767) */
 @media (min-width: 568px) and (max-width: 767px) {
