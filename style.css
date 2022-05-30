@@ -471,6 +471,10 @@ p{
     padding-left: 50px;
 }
 
+.instagram .col-md-3{
+    margin: 10px 0;
+}
+
 @media (max-width:600px) {
 .nav{
     margin: 0;
@@ -515,7 +519,7 @@ p{
     }
     .nav > .nav-links > a {
       display: block;
-      width: 100%;
+      width: 95%;
       padding: 40px 0 30px;
       text-align: center;
     }
@@ -527,6 +531,10 @@ p{
       overflow-y: auto;
       background-color: #870000;
       z-index: 3;
+    }
+
+    .nav-order{
+        margin-top: 30px!important;
     }
   }
 
@@ -578,9 +586,7 @@ p{
 .billboard {
     padding-bottom: 30px;
 }
-.billboard-inner {
-    padding: 0 15px;
-}
+
 .about{
     flex-direction: column;
     padding: 50px 18px;
@@ -642,6 +648,7 @@ p{
 
 .tate-inner img{
     width: 100%;
+    object-fit: contain;
 }
 
 .gallery {
@@ -679,6 +686,7 @@ p{
 .billboard-inner{
     margin-top: 20px;
     flex-direction: column;
+    padding: 0 15px;
 }
 
 .testimonials {
@@ -689,7 +697,7 @@ p{
     width: 50%;
 } 
 .season_tab label{
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .season_content {
@@ -712,12 +720,15 @@ span{
 }
 .billboard-inner img {
     height: 300px;
-    margin: 15px 0;
+    margin: 8px 0;
     width: 100%;
 }  
+.aboutPage img{
+    width: 100%!important;
+}
 
-.nav-order{
-    margin-top: 30px;
+.aboutPage .About-img1{
+    height: 100%;
 }
 }
 /* // Small devices (landscape phones, 576px and up 767) */
