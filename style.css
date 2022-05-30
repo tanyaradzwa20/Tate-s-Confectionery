@@ -691,7 +691,7 @@ p{
     width: 50%;
 } 
 .season_tab label{
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .season_content {
@@ -699,7 +699,7 @@ p{
    padding: 0;
 }
 .season_content p{
-    font-size: 15px;
+    font-size: 13px;
     margin: auto;
 }
 
