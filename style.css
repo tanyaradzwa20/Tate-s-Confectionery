@@ -46,12 +46,14 @@ p{
     width: 100vw;
     height: 15vh;
     justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 0 30px;
   }
 
-  .nav img {
+  /* .nav img {
     display: inline-block;
     padding: 10px ;
-  }
+  } */
   
   .nav > .nav-btn {
     display: none;
@@ -94,8 +96,14 @@ p{
   .nav > #nav-check {
     display: none;
   }
+  .nav-title{
+      width: 10%;
+  }
 
-
+.nav-title img{
+ width: 100%;
+ object-fit: contain;
+}
 .billboard{
     padding-bottom: 80px;
 }
@@ -474,7 +482,8 @@ p{
     margin: 0;
 }
 .nav > .nav-title {
-    width: 30%;
+    width: 20%;
+    margin-right: auto;
 }
 .nav img{
     width: 100%;
@@ -482,8 +491,8 @@ p{
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
-      right: 0px;
-      top: 0px;
+      right: 20px;
+      top: 20px;
     }
     .nav > .nav-btn > label {
       display: inline-block;
@@ -508,7 +517,7 @@ p{
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
-      top: 50px;
+      top: 100px;
       left: 0px;
     }
     .nav > .nav-links > a {
