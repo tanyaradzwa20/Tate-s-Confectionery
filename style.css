@@ -738,11 +738,34 @@ span{
 }
 /* // Small devices (landscape phones, 576px and up 767) */
 @media (min-width: 568px) and (max-width: 767px) {
-    h1{
-        width: 75%;
+    h1 {
+        font-size: 25px;
+        width: 100%;
+        margin: 0;
+        padding: 0 15px;
+
+}
+
+.card{
+    margin: 30px auto;
+}
+    .nav > .nav-links > a {
+        font-size: 15px;
     }
 
+    .order-text {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
 
+    .order{
+        margin-top: 30px;
+    }
+
+    .season_content {
+
+        left: 277px;}
 .products img{
     height: 200px;
 }
