@@ -101,7 +101,7 @@ p{
   }
 
 .nav-title img{
- width: 100%;
+ width: 70%;
  object-fit: contain;
 }
 .billboard{
@@ -739,13 +739,15 @@ span{
 /* // Small devices (landscape phones, 576px and up 767) */
 @media (min-width: 568px) and (max-width: 767px) {
     h1 {
-        font-size: 25px;
+        font-size: 20px;
         width: 100%;
         margin: 0;
         padding: 0 15px;
 
 }
-
+.nav{
+    margin-top: 10px;
+}
 .card{
     margin: 30px auto;
 }
@@ -758,7 +760,9 @@ span{
         margin: auto;
         text-align: center;
     }
-
+    .billboard-inner img{
+        height: 250px;
+    }
     .order{
         margin-top: 30px;
     }
@@ -795,7 +799,16 @@ span{
     padding-bottom: 25px;
 }
 
+.products {
+    padding: 20px 15px;
+}
 
+.products p {
+    width: 70%;}
+
+    .about {
+        padding: 70px 18px;
+    }
 }
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
